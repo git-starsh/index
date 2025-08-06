@@ -1,0 +1,143 @@
+{
+  "肥羊净化": {
+    "name": "肥羊净化",
+    "config": {
+      "filterKeywords": [
+        "测试",
+        "25",
+        "咪咕"
+      ],
+      "duplicateRemoval": {
+        "enabled": true
+      },
+      "groupNameMapping": {
+        "央视": "央视频道",
+        "卫视": "卫视频道",
+        "地方": "地方频道",
+        "影视": "其他频道",
+        "娱乐": "其他频道",
+        "少儿": "其他频道",
+        "纪实": "其他频道",
+        "体育": "其他频道",
+        "综艺": "其他频道",
+        "新闻": "其他频道",
+        "教育": "其他频道",
+        "其他": "其他频道",
+        "8K频道": "其他频道",
+        "4K频道": "其他频道",
+        "咪咕体育": "其他频道",
+        "GPTV-央视": "央视频道",
+        "GPTV-卫视": "卫视频道",
+        "GPTV-其他": "其他频道",
+        "GPTV-北京": "其他频道",
+        "YHYX-央视": "央视频道",
+        "YHYX-卫视": "卫视频道",
+        "YHYX-河北": "其他频道",
+        "YHYX-其他": "其他频道",
+        "YHYX-北京": "其他频道",
+        "BST-央视": "央视频道",
+        "BST-卫视": "卫视频道",
+        "BST-其他": "其他频道"
+      },
+      "channelNameMapping": {
+        "CCTV-新闻": "CCTV13",
+        "CCTV-少儿": "CCTV14",
+        "CCTV-音乐": "CCTV15"
+      },
+      "customGroupRules": {
+        "其他频道": [
+          "剧场",
+          "高尔夫",
+          "电视指南",
+          "风云音乐",
+          "女性时尚",
+          "央视",
+          "风云",
+          "世界",
+          "兵器",
+          "测试",
+          "25",
+          "钱塘江",
+          "开封",
+          "熊猫",
+          "语",
+          "洲",
+          "Doc",
+          "老",
+          "生",
+          "发现",
+          "咪咕视频",
+          "cgtn",
+          "CGTN",
+          "4k",
+          "8k"
+        ],
+        "央视频道": [
+          "CHC"
+        ],
+        "地方频道": [
+          "海峡",
+          "康巴",
+          "安多",
+          "农林",
+          "三沙",
+          "延边"
+        ]
+      },
+      "groupNameSort": [
+        "央视频道",
+        "卫视频道",
+        "地方频道",
+        "其他频道"
+      ],
+      "filterGroups": [],
+      "sourceSorting": {
+        "identifiers": [
+          "migu",
+          "bst",
+          "gptv"
+        ],
+        "blockedIdentifiers": [
+          "yhyx",
+          "mgtv",
+          "nptv"
+        ],
+        "enabled": true,
+        "keepOnlyBest": false
+      },
+      "purificationRules": {
+        "removeBrackets": true,
+        "removeNumberPrefix": true,
+        "removeModifiers": true,
+        "standardizeCCTV": true,
+        "uppercaseCCTV": true,
+        "modifierWords": [
+          "高清",
+          "标清",
+          "-GPTV",
+          "-BST",
+          "-YHYX",
+          "超清",
+          "-HD",
+          "HD",
+          "-NPTV"
+        ]
+      },
+      "gistConfig": {
+        "id": "",
+        "token": "",
+        "fileName": "tv.m3u",
+        "lastUploaded": {
+          "gistUrl": "",
+          "rawUrl": ""
+        }
+      },
+      "tvgLogoConfig": {
+        "enabled": true,
+        "url": "https://gitee.com/IIII-9306/PAV/raw/master/logos/"
+      }
+    },
+    "timestamp": 1735689600000,
+    "lastModified": 1735689600000
+  }
+}
