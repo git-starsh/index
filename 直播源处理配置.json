@@ -1,0 +1,115 @@
+{
+  "live": {
+    "name": "live",
+    "config": {
+      "filterKeywords": [
+        "测试",
+        "25"
+      ],
+      "duplicateRemoval": {
+        "enabled": true
+      },
+      "groupNameMapping": {
+        "央视": "央视频道",
+        "卫视": "卫视频道",
+        "地方": "地方频道",
+        "影视": "其他频道",
+        "娱乐": "其他频道",
+        "少儿": "其他频道",
+        "纪实": "其他频道",
+        "体育": "其他频道",
+        "综艺": "其他频道",
+        "新闻": "其他频道",
+        "教育": "其他频道",
+        "其他": "其他频道"
+      },
+      "channelNameMapping": {
+        "cctv5p-MCP": "CCTV5+"
+      },
+      "customGroupRules": {
+        "央视频道": [
+          "CHC"
+        ],
+        "地方频道": [
+          "海峡",
+          "康巴",
+          "安多",
+          "农林",
+          "三沙",
+          "延边"
+        ],
+        "其他频道": [
+          "剧场",
+          "高尔夫",
+          "电视指南",
+          "风云音乐",
+          "女性时尚",
+          "央视",
+          "风云",
+          "世界",
+          "兵器",
+          "测试",
+          "25",
+          "钱塘江",
+          "开封",
+          "熊猫",
+          "语",
+          "Doc",
+          "老",
+          "生",
+          "发现",
+          "咪咕视频",
+          "cgtn",
+          "CGTN",
+          "4K",
+          "8K"
+        ]
+      },
+      "groupNameSort": [
+        "央视频道",
+        "卫视频道",
+        "地方频道",
+        "其他频道"
+      ],
+      "filterGroups": [],
+      "sourceSorting": {
+        "identifiers": [
+          "live.ottiptv.cc",
+          "mgtv.ottiptv.cc"
+        ],
+        "blockedIdentifiers": [],
+        "enabled": true,
+        "keepOnlyBest": false
+      },
+      "purificationRules": {
+        "removeBrackets": true,
+        "removeNumberPrefix": true,
+        "removeModifiers": true,
+        "standardizeCCTV": true,
+        "uppercaseCCTV": true,
+        "modifierWords": [
+          "-MCP"
+        ]
+      },
+      "gistConfig": {
+        "id": "2c609920b0e74c830fba3f79227fdcc7",
+        "token": "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",
+        "fileName": "tv.m3u",
+        "lastUploaded": {
+          "gistUrl": "",
+          "rawUrl": ""
+        }
+      },
+      "tvgLogoConfig": {
+        "enabled": false,
+        "url": "https://gitee.com/IIII-9306/PAV/raw/master/logos/"
+      },
+      "customUA": {
+        "enabled": false,
+        "userAgent": ""
+      }
+    },
+    "timestamp": 1758274230468,
+    "lastModified": 1758274230468
+  }
+}
